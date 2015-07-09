@@ -1,7 +1,6 @@
 package br.com.fernando.distance.impl
 import math._
 
-import br.com.fernando.distance.Distance
 
 /**
  * * @author fsoster
@@ -10,7 +9,7 @@ import br.com.fernando.distance.Distance
  * Para medir do globo principalmente. 
  * 
  */
-class HaversineDistance extends Distance{
+class HaversineDistance {
    val R = 6372.8  //radius in km
  
    def distance(lat1: Double, lon1: Double,lat2: Double, lon2: Double):Double={
@@ -23,10 +22,4 @@ class HaversineDistance extends Distance{
    }
    
    
-  def distance(x: String, y: String):Double ={
-    0
-  }
-   def distance(x: Array[Double], y: Array[Double]):Double ={
-    0
-  }
 }

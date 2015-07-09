@@ -1,7 +1,5 @@
 package br.com.fernando.distance.impl
 
-import br.com.fernando.distance.Distance
-
 /**
  * @author fsoster
  * 
@@ -16,18 +14,12 @@ import br.com.fernando.distance.Distance
  * 
  * 
  */
-class HammingDistance extends Distance {
+class HammingDistance {
   
-  def distance(x: Array[Double], y: Array[Double]):Double ={
-    0
-  }
   
   def distance(x: String, y: String):Double ={
     (x zip y) count (x => x._1 != x._2 )
   }
   
-  def distance(lat1: Double, lon1: Double,lat2: Double, lon2: Double):Double={
-    0
-  }
   
 }
