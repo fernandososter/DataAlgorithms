@@ -8,4 +8,10 @@ class ManhattanDistance extends Distance {
     (x zip y).map{case (a,b) => Math.abs(a-b) }.sum
   }
   
+  def distance(x: String, y: String):Double ={
+    0
+  }
+  def distance(lat1: Double, lon1: Double,lat2: Double, lon2: Double):Double={
+    0
+  }
 }
