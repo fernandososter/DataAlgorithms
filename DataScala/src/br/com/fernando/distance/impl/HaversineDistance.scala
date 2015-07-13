@@ -8,6 +8,8 @@ import math._
  * O haversine distance Ã© utilizado para medir distancia em uma esfera. 
  * Para medir do globo principalmente. 
  * 
+ * Esse código leva em consideracao o circunferencia do globo quando calcula 
+ * a distancia em um triangulo. 
  */
 class HaversineDistance {
    val R = 6372.8  //radius in km
